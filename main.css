@@ -3,12 +3,15 @@ body {
     background-color: #777777;
 } 
 
+.header{
+    background-color: #66aaff;
+}
+
 .navlinks {
     padding: 5px;
 }
 
 a {
-    color: white;
     font-size: 14px;
     text-decoration: none;
     font-weight: bold;
