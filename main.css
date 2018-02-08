@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Slab', serif;
-    background-color: #555566;
+    background-color: black;
 } 
 
 .header{
@@ -21,9 +21,10 @@ a {
 }
 
 .all{
+    padding: 20px;
     background-image: url("https://www.dropbox.com/s/6hlxoy58sste1mi/IMG_0981.jpg?raw=1");
     background-repeat: no-repeat;
     background-position: top left;
     height: 100%;
-    background-size: auto;
+    background-size: cover;
 }
