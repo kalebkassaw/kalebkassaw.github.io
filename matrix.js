@@ -1,13 +1,17 @@
+function solve(){
 let row0 = [0, 0, 0];
 let row1 = [0, 0, 0];
 
-row0[0] = document.getElementById("a00");
-row0[1] = document.getElementById("a01");
-row1[0] = document.getElementById("a10");
-row1[1] = document.getElementById("a11");
+row0[0] = Number(document.getElementById("a00"));
+row0[1] = Number(document.getElementById("a01"));
+row1[0] = Number(document.getElementById("a10"));
+row1[1] = Number(document.getElementById("a11"));
 
-row0[2] = document.getElementById("a02");
-row1[2] = document.getElementById("a12");
+row0[2] = Number(document.getElementById("a02"));
+row1[2] = Number(document.getElementById("a12"));
+
+console.log(row0);
+console.log(row1);
 
 if (row0[0] != 1) {
     row0[1] = row0[1] / row0[0];
@@ -40,4 +44,6 @@ if (row0[1] != 0) {
     console.log('after third op:');
     console.log(row0);
     console.log(row1);
+}
+return 0;
 }
