@@ -1,16 +1,15 @@
 .all{
     padding: 35px;
-    background-image: url("https://www.dropbox.com/s/6hlxoy58sste1mi/IMG_0981.jpg?raw=1");
-    background-repeat: no-repeat;
+    background-color:333333;
     background-position: center;
     height: 100%;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
-    color: #333333;
+    color: black;
 }
 
 a {
-    color: #333333;
+    color: black;
     font-size: 50px;
     text-decoration: none;
     font-weight: bold;
