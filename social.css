@@ -1,6 +1,6 @@
 .all{
     padding: 35px;
-    background-color:333333;
+    background: linear-gradient(to bottom right, rgb(19, 19, 128), rgb(99, 7, 7));
     background-position: center;
     height: 100%;
     background-size: cover;
@@ -8,8 +8,22 @@
     color: black;
 }
 
-a {
-    color: black;
+.web-title{
+    padding-left: ;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.a, a:link, a:visited {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.row a {
+    color: white;
     font-size: 50px;
     text-decoration: none;
     font-weight: bold;
@@ -24,13 +38,13 @@ a {
 }
 
 #twitter {
-    background-color: #ffffff88;
+    background-color: #ffffff60;
 }
 
 #instagram {
-    background-color: #ffffff88;
+    background-color: #ffffff60;
 }
 
 #snap {
-    background-color: #ffffff88;
+    background-color: #ffffff60;
 }

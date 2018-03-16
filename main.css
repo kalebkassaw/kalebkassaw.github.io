@@ -1,36 +1,51 @@
 .all{
     padding: 20px;
-    background-color: #333333;
+    background: linear-gradient(to bottom right, rgb(19, 19, 128), rgb(99, 7, 7));
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
     background-size: cover;
     color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.web-title{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: white;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     background-color: black;
 } 
 
 .header{
-    color: black;
-    background-color: #ffffff80;
-    fill-opacity: 50%;
+    color: white;
     padding: 10px;
+    background-color: #ffffff60;
 }
 
-a {
+.a, a:link, a:visited {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#mat {
     color: white;
     font-size: 14px;
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
-    background-color: #5d00f39c;
+    background-color: #ffffff60;
 }
+
+
 
 p {
     color: white;
-    background-color: #ffffff80;
+    background-color: #ffffff60;
     padding: 10px;
 }

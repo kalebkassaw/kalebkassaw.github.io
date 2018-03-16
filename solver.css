@@ -23,7 +23,7 @@ a {
 .all{
     padding: 20px;
     color: white;
-    background-color:#333333;
+    background: linear-gradient(to bottom right, rgb(19, 19, 128), rgb(99, 7, 7));
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
