@@ -60,3 +60,8 @@ if (row0[1] != 0) {
 document.getElementById("result").innerHTML = (`x0 = ${row0[2]} & x1 = ${row1[2]}`);
 return 0;
 }
+
+function fixer(){
+    solve();
+    return false;
+}
