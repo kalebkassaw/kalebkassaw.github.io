@@ -1,5 +1,13 @@
-.all{
-    padding: 20px;
+.web-title{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background-color: black;
     background: linear-gradient(to bottom right, rgb(19, 19, 128), rgb(99, 7, 7));
     background-repeat: no-repeat;
     background-position: center;
@@ -7,27 +15,17 @@
     background-size: cover;
     color: white;
     font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.web-title{
-    padding-left: 10px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    font-size: 16px;
-    color: white;
-}
-
-body {
-    background-color: black;
 } 
 
 .header{
     color: white;
-    padding: 10px;
     background-color: #ffffff60;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
-.a, a:link, a:visited {
+a, a:link, a:visited {
     color: white;
     font-size: 16px;
     text-decoration: none;
@@ -48,4 +46,10 @@ p {
     color: white;
     background-color: #ffffff60;
     padding: 10px;
+}
+
+#sel {
+    font-weight: bold;
+    color: white;
+    background-color: #ffffff60;
 }

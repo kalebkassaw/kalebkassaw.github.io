@@ -1,5 +1,4 @@
-.all{
-    padding: 35px;
+body{
     background: linear-gradient(to bottom right, rgb(19, 19, 128), rgb(99, 7, 7));
     background-position: center;
     height: 100%;
@@ -9,8 +8,9 @@
 }
 
 .web-title{
-    padding-bottom: 5px;
-    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
     font-size: 16px;
     color: white;
 }
@@ -29,21 +29,21 @@
 }
 
 .row{
-    height: 50%
+    height: 38%
 }
 
-.col{
+.col-md-12, .col-md-5{
     padding: 20px;
 }
 
-#twitter {
+#twitter, #instagram, #snap {
     background-color: #ffffff60;
+    padding: 30px;
+    padding-left: 50px;
 }
 
-#instagram {
-    background-color: #ffffff60;
-}
-
-#snap {
+#sel {
+    font-weight: bold;
+    color: white;
     background-color: #ffffff60;
 }
