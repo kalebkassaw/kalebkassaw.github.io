@@ -57,7 +57,10 @@ if (row0[1] != 0) {
     console.log(row1);
 }
 
-document.getElementById("result").innerHTML = (`x0 = ${row0[2].toFixed(6)} & x1 = ${row1[2].toFixed(6)}`);
+row0[2] = Math.round(row0[2]).toFixed(4);
+row1[2] = Math.round(row1[2]).toFixed(4);
+
+document.getElementById("result").innerHTML = (`x0 = ${row0[2]} & x1 = ${row1[2]}`);
 return 0;
 }
 
