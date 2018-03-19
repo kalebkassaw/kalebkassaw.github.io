@@ -8,7 +8,7 @@
 
 body {
     background-color: black;
-    background: linear-gradient(to bottom right, rgb(19, 19, 128), rgb(99, 7, 7));
+    background: linear-gradient(to left, rgb(84, 23, 163), rgb(34, 34, 34));
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
@@ -25,6 +25,11 @@ body {
     padding-bottom: 10px;
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
 a, a:link, a:visited {
     color: white;
     font-size: 16px;
@@ -37,19 +42,39 @@ a, a:link, a:visited {
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
-    background-color: #ffffff60;
+    background-color: #ffffff20;
 }
 
-
-
-p {
+.pbody {
     color: white;
     background-color: #ffffff60;
-    padding: 10px;
+    padding: 20px;
 }
 
 #sel {
     font-weight: bold;
     color: white;
     background-color: #ffffff60;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#twitter, #snap {
+    color: white;
+    background-color: #ffffff60;
+    padding: 30px;
+    padding-left: 35px;
+}
+
+#instagram {
+    color: white;
+    background-color: #ffffff80;
+    padding: 30px;
+    padding-left: 35px;
+}
+
+#social a {
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
 }
