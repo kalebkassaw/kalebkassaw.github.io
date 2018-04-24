@@ -3,13 +3,21 @@
     padding-left: 20px;
     padding-bottom: 10px;
     font-size: 16px;
-    color: white;
-    /*background-color: black;*/
+    color: #3e2b5e;
+    background-color: white;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #3e2b5e;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    size: 100%;
 }
 
 body {
-    background-color: black;
-    background: linear-gradient(to left, rgb(84, 23, 163), rgb(34, 34, 34));
+    overflow-x: hidden;
+    background-color: #3e2b5e;
+    /*background: linear-gradient(to left, rgb(84, 23, 163), rgb(34, 34, 34));*/
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
@@ -19,11 +27,14 @@ body {
 } 
 
 .header{
-    color: white;
-    background-color: #ffffff60;
+    color: #3e2b5e; /*was 282f4d*/
+    background-color: #ffffff;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: black;
 }
 
 h1 {
@@ -32,46 +43,34 @@ h1 {
 }
 
 a, a:link, a:visited {
-    color: white;
+    color: #3e2b5e;
     font-size: 16px;
     text-decoration: none;
 }
 
-#mat {
-    color: white;
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-    background-color: #ffffff20;
-}
-
-.pbody {
-    color: white;
-    background-color: #ffffff60;
+#pbody, .pbody {
+    color: #3e2b5e;
+    background-color: white;
     padding: 20px;
+    background-position: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 #sel {
     font-weight: bold;
-    color: white;
-    background-color: #ffffff60;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
-#twitter, #snap {
-    color: white;
-    background-color: #ffffff60;
+#twitter, #snap, #instagram {
+    color: #3e2b5e;
+    background-color: white;
     padding: 30px;
-    padding-left: 35px;
-}
-
-#instagram {
-    color: white;
-    background-color: #ffffff80;
-    padding: 30px;
-    padding-left: 35px;
+    border-left-style: solid;
+    border-left: 1px;
+    border-right-style: solid;
+    border-right: 1px;
+    border-color: #3e2b5e;
 }
 
 #social a {
