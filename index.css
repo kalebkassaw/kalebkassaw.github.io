@@ -1,0 +1,42 @@
+body {
+    color: white;
+    background-color: rgb(36, 36, 36);
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.nav {
+    background-color: rgb(56, 56, 56);
+    margin: 0px;
+    padding: 20px;
+}
+
+.block {
+    background-color: rgb(56, 56, 56);
+    margin: auto;
+    width: 88%;
+    max-width: 1250px;
+    padding: 20px;
+    border-color: white;
+    border: 1px;
+}
+
+.block:hover {
+    background-color: rgb(5, 48, 128);
+}
+
+h1 {font-size: 24px; margin: 0px;}
+
+h2 {font-size: 20px; margin: 0px;}
+
+h3 {font-size: 16px; margin: 0px;}
+
+p {font-size: 12px; margin: 0px;}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(103, 197, 255);
+}
