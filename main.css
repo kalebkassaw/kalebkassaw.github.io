@@ -16,6 +16,9 @@
 
 body {
     overflow-x: hidden;
+    /*background-color: #9d2235;
+        Razorback red.
+    */
     background-color: #3e2b5e;
     /*background: linear-gradient(to left, rgb(84, 23, 163), rgb(34, 34, 34));*/
     background-repeat: no-repeat;
@@ -23,7 +26,7 @@ body {
     height: 100%;
     background-size: cover;
     color: white;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 } 
 
 .header{
