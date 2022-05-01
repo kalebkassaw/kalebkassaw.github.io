@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Social links
 
 [Twitter](https://twitter.com/kalebkassaw)
