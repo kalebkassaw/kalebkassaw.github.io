@@ -1,5 +1,3 @@
-# Kaleb Kassaw
-
 ### Projects
 - Occlusion benchmark: (coming soon)
 - Deep feature augmentation: [GitHub repo](https://github.com/kalebkassaw/deep-feature-augmentation)
